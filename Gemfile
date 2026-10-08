@@ -11,7 +11,7 @@ gem "rack-cors"          # Uncommented: Required for React Native to talk to thi
 gem "rack-attack"        # Added: Rate-limits brute force logins and expensive AI calls
 
 # Data, Pagination & Authorization
-gem "pagy", "~> 9.0"     # Added: High-performance pagination for financial feeds
+gem "pagy", "~> 43.7"    # Added: High-performance pagination for financial feeds
 gem "pundit"             # Added: Enforces strict object-level authorization (current_user only)
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
